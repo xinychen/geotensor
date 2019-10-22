@@ -3,7 +3,7 @@ Geometric low-rank tensor completion for color image inpainting
 
 ## Motivation
 
-- Image inpainting: various missing patterns.
+- **Color image inpainting**: various missing patterns.
 
 <table>
   <tr>
