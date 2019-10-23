@@ -18,4 +18,14 @@ Geometric low-rank tensor completion for color image inpainting
 
 ## Implementation
 
+- [LGTC](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC.ipynb)
 - [LGTC+](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC%20.ipynb)
+
+
+## Reference
+
+- **Matrix Completion + Nonconvex Regularization**
+
+| No | Title | Year | PDF | Code |
+|:---|:------|:----:|:---:|-----:|
+| 1  | Matrix Completion via Nonconvex Regularization: Convergence of the Proximal Gradient Algorithm | 2019 | [arxiv](http://arxiv.org/pdf/1903.00702v1.pdf) | [Matlab](https://github.com/FWen/nmc) |
