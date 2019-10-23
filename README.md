@@ -17,3 +17,5 @@ Geometric low-rank tensor completion for color image inpainting
 - Low-rank tensor completion: graph modeling.
 
 ## Implementation
+
+- [LGTC+](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC%20.ipynb)
