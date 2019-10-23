@@ -15,7 +15,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
   </tr>
 </table>
 
-- **Low-rank tensor completion**: graph modeling.
+- **Low-rank tensor completion**: smoothness modeling.
 
 ## Implementation
 
@@ -25,7 +25,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 ## Reference
 
-#### 1) Matrix/Tensor Completion + Nonconvex Regularization
+- **Matrix/Tensor Completion + Nonconvex Regularization**
 
 | No | Title | Year | PDF | Code |
 |:---|:------|:----:|:---:|-----:|
@@ -36,7 +36,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 | 5 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [TPAMI](https://ieeexplore.ieee.org/document/8416722/) | - |
 | 6 | Nonconvex Robust Low-rank Matrix Recovery | 2018 | [arxiv](https://arxiv.org/pdf/1809.09237.pdf) | [Matlab](https://github.com/lixiao0982/Nonconvex-Robust-Low-rank-Matrix-Recovery) |
 
-#### 2) Rank Approximation + Nonconvex Regularization
+- **Rank Approximation + Nonconvex Regularization**
 
 | No | Title | Year | PDF | Code |
 |:---|:------|:----:|:---:|-----:|
