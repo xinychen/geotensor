@@ -40,11 +40,12 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 | No | Title | Year | PDF | Code |
 |:--|:------|:----:|:---:|-----:|
-| 1 | Rank Minimization with Structured Data Patterns | 2014 | [ECCV](http://www1.maths.lth.se/matematiklth/vision/publdb/reports/pdf/larsson-olsson-etal-eccv-14.pdf) |
-| 2 | Minimizing the Maximal Rank | 2016 | [CVPR](http://www1.maths.lth.se/matematiklth/vision/publdb/reports/pdf/bylow-olsson-etal-cvpr-16.pdf) | - |
-| 3 | Convex Low Rank Approximation | 2016 | [IJCV](http://www.maths.lth.se/vision/publdb/reports/pdf/larsson-olsson-ijcv-16.pdf) | - |
-| 4 | Non-Convex Rank/Sparsity Regularization and Local Minima | 2017 | [ICCV](http://openaccess.thecvf.com/content_ICCV_2017/papers/Olsson_Non-Convex_RankSparsity_Regularization_ICCV_2017_paper.pdf), [Supp](http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Olsson_Non-Convex_RankSparsity_Regularization_ICCV_2017_supplemental.pdf) | - |
-| 5 | A Non-Convex Relaxation for Fixed-Rank Approximation | 2017 | [ICCV](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w25/Olsson_A_Non-Convex_Relaxation_ICCV_2017_paper.pdf) | - |
-| 6 | Inexact Proximal Gradient Methods for Non-Convex and Non-Smooth Optimization | 2018 | [AAAI](http://www.pitt.edu/~zhh39/others/aaaigu18a.pdf) | - |
-| 7 | Non-Convex Relaxations for Rank Regularization | 2019 | [slide](https://icerm.brown.edu/materials/Slides/sp-s19-w3/Non-Convex_Relaxations_for_Rank_Regularization_]_Carl_Olsson,_Chalmers_University_of_Technology_and_Lund_University.pdf) | - |
-| 8 | Geometry and Regularization in Nonconvex Low-Rank Estimation | 2019 | [slide](http://users.ece.cmu.edu/~yuejiec/papers/NonconvexLowrank.pdf) | - |
+|  1 | A General Iterative Shrinkage and Thresholding Algorithm for Non-convex Regularized Optimization Problems | 2013 | [ICML](http://proceedings.mlr.press/v28/gong13a.pdf) | - |
+|  2 | Rank Minimization with Structured Data Patterns | 2014 | [ECCV](http://www1.maths.lth.se/matematiklth/vision/publdb/reports/pdf/larsson-olsson-etal-eccv-14.pdf) | - |
+|  3 | Minimizing the Maximal Rank | 2016 | [CVPR](http://www1.maths.lth.se/matematiklth/vision/publdb/reports/pdf/bylow-olsson-etal-cvpr-16.pdf) | - |
+|  4 | Convex Low Rank Approximation | 2016 | [IJCV](http://www.maths.lth.se/vision/publdb/reports/pdf/larsson-olsson-ijcv-16.pdf) | - |
+|  5 | Non-Convex Rank/Sparsity Regularization and Local Minima | 2017 | [ICCV](http://openaccess.thecvf.com/content_ICCV_2017/papers/Olsson_Non-Convex_RankSparsity_Regularization_ICCV_2017_paper.pdf), [Supp](http://openaccess.thecvf.com/content_ICCV_2017/supplemental/Olsson_Non-Convex_RankSparsity_Regularization_ICCV_2017_supplemental.pdf) | - |
+|  6 | A Non-Convex Relaxation for Fixed-Rank Approximation | 2017 | [ICCV](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w25/Olsson_A_Non-Convex_Relaxation_ICCV_2017_paper.pdf) | - |
+|  7 | Inexact Proximal Gradient Methods for Non-Convex and Non-Smooth Optimization | 2018 | [AAAI](http://www.pitt.edu/~zhh39/others/aaaigu18a.pdf) | - |
+|  8 | Non-Convex Relaxations for Rank Regularization | 2019 | [slide](https://icerm.brown.edu/materials/Slides/sp-s19-w3/Non-Convex_Relaxations_for_Rank_Regularization_]_Carl_Olsson,_Chalmers_University_of_Technology_and_Lund_University.pdf) | - |
+|  9 | Geometry and Regularization in Nonconvex Low-Rank Estimation | 2019 | [slide](http://users.ece.cmu.edu/~yuejiec/papers/NonconvexLowrank.pdf) | - |
