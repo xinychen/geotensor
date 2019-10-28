@@ -25,6 +25,13 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 ## Reference
 
+- **General Tensor Completion**
+
+| No | Title | Year | PDF | Code |
+|:--|:------|:----:|:---:|-----:|
+|  1 | Tensor Completion for Estimating Missing Values in Visual Data | 2013 | [TPAMI](https://doi.org/10.1109/TPAMI.2012.39) | - |
+|  2 | Spatio-Temporal Signal Recovery Based on Low Rank and Differential Smoothness | 2018 | [IEEE](https://doi.org/10.1109/TSP.2018.2875886) | - |
+
 - **Matrix/Tensor Completion + Nonconvex Regularization**
 
 | No | Title | Year | PDF | Code |
