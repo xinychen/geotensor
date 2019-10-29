@@ -19,9 +19,16 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 ## Implementation
 
-- [LGTC](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC.ipynb)
-- [LGTC+](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC%20.ipynb)
+- Proposed Models
 
+  - [LGTC (Nuclear Norm)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-NN.ipynb)
+  - [LGTC (Capped-L1)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Capped-L1.ipynb)
+  - [LGTC (LSP)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-LSP.ipynb)
+
+- Competing Models
+
+  - [HaLRTC](xxxx)
+  - [None](xxxx)
 
 ## Reference
 
@@ -30,7 +37,9 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 | No | Title | Year | PDF | Code |
 |:--|:------|:----:|:---:|-----:|
 |  1 | Tensor Completion for Estimating Missing Values in Visual Data | 2013 | [TPAMI](https://doi.org/10.1109/TPAMI.2012.39) | - |
-|  2 | Spatio-Temporal Signal Recovery Based on Low Rank and Differential Smoothness | 2018 | [IEEE](https://doi.org/10.1109/TSP.2018.2875886) | - |
+|  2 | Efficient tensor completion for color image and video recovery: Low-rank tensor train | 2016 | [arxiv](https://arxiv.org/pdf/1606.01500.pdf) | - |
+|  3 | Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks | 2017 | [NeurIPS](https://arxiv.org/abs/1704.06803)| [Python](https://github.com/fmonti/mgcnn) |
+|  4 | Spatio-Temporal Signal Recovery Based on Low Rank and Differential Smoothness | 2018 | [IEEE](https://doi.org/10.1109/TSP.2018.2875886) | - |
 
 - **Matrix/Tensor Completion + Nonconvex Regularization**
 
