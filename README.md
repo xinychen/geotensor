@@ -25,7 +25,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
   - [LGTC (Capped-L1)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Capped-L1.ipynb)
   - [LGTC (LSP)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-LSP.ipynb)
 
-One notable thing is that our Python code (relies on `numpy`) is extremely simple to understand, it only has few rows like this:
+One notable thing is that unlike the complex equations in our model, our Python code (relies on `numpy`) is extremely simple to understand and work with. Take `**GLTC-Geman**` as an example, its kernel function only has few rows:
 
 Hope you have fun if you work with our code!
 
