@@ -4,7 +4,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 ## Motivation
 
-- **Color image inpainting**: various missing patterns.
+- **Color image inpainting**: Various missing patterns.
 
 <table>
   <tr>
@@ -15,7 +15,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
   </tr>
 </table>
 
-- **Low-rank tensor completion**: smoothness modeling.
+- **Low-rank tensor completion**: Characterizing images with graph (e.g., adjacent smoothness matrix based graph regularizer).
 
 ## Implementation
 
@@ -29,6 +29,9 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
   - [HaLRTC](xxxx)
   - [None](xxxx)
+
+- Inpainting Example
+
 
 ## Reference
 
@@ -67,3 +70,9 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 |  8 | Non-Convex Relaxations for Rank Regularization | 2019 | [slide](https://icerm.brown.edu/materials/Slides/sp-s19-w3/Non-Convex_Relaxations_for_Rank_Regularization_]_Carl_Olsson,_Chalmers_University_of_Technology_and_Lund_University.pdf) | - |
 |  9 | Geometry and Regularization in Nonconvex Low-Rank Estimation | 2019 | [slide](http://users.ece.cmu.edu/~yuejiec/papers/NonconvexLowrank.pdf) | - |
 | 10 | Generalized Singular Value Thresholding | 2014 | [AAAI](https://arxiv.org/pdf/1412.2231.pdf) | - |
+
+## Our Publication
+
+Geometric low-rank tensor completion for color image inpainting.
+
+> Please consider citing our paper if it helps your research.
