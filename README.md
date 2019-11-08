@@ -25,7 +25,7 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
   - [LGTC (Capped-L1)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Capped-L1.ipynb)
   - [LGTC (LSP)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-LSP.ipynb)
 
-One notable thing is that unlike the complex equations in our model, our Python code (relies on `numpy`) is extremely simple to understand and work with. Take **`GLTC-Geman`** as an example, its kernel function only has few rows:
+One notable thing is that unlike the complex equations in our models, our Python implementation (relies on `numpy`) is extremely easy to work with. Take **`GLTC-Geman`** as an example, its kernel function only has few lines:
 
 ```python
 def supergradient(s_hat, lambda0, theta):
@@ -85,7 +85,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
   - [HaLRTC](xxxx)
   - [None](xxxx)
 
-- Inpainting Example
+- Inpainting Example (by **`GLTC-Geman`**)
 
 
 ## Reference
@@ -128,6 +128,6 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
 ## Our Publication
 
-Geometric low-rank tensor completion for color image inpainting.
+**Geometric low-rank tensor completion for color image inpainting**.
 
 > Please consider citing our paper if it helps your research.
