@@ -27,7 +27,58 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 One notable thing is that unlike the complex equations in our model, our Python code (relies on `numpy`) is extremely simple to understand and work with. Take **`GLTC-Geman`** as an example, its kernel function only has few rows:
 
-Hope you have fun if you work with our code!
+```python
+def supergradient(s_hat, lambda0, theta):
+    """Supergradient of the Geman function."""
+    return (lambda0 * theta / (s_hat + theta) ** 2)
+
+def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
+    """Main function of the GLTC-Geman."""
+    dim0 = sparse_tensor.ndim
+    dim1, dim2, dim3 = sparse_tensor.shape
+    dim = np.array([dim1, dim2, dim3])
+    binary_tensor = np.zeros((dim1, dim2, dim3))
+    binary_tensor[np.where(sparse_tensor != 0)] = 1
+    tensor_hat = sparse_tensor.copy()
+    
+    X = np.zeros((dim1, dim2, dim3, dim0)) # \boldsymbol{\mathcal{X}} (n1*n2*3*d)
+    Z = np.zeros((dim1, dim2, dim3, dim0)) # \boldsymbol{\mathcal{Z}} (n1*n2*3*d)
+    T = np.zeros((dim1, dim2, dim3, dim0)) # \boldsymbol{\mathcal{T}} (n1*n2*3*d)
+    for k in range(dim0):
+        X[:, :, :, k] = tensor_hat
+    
+    D1 = np.zeros((dim1 - 1, dim1)) # (n1-1)-by-n1 adjacent smoothness matrix
+    for i in range(dim1 - 1):
+        D1[i, i] = -1
+        D1[i, i + 1] = 1
+    D2 = np.zeros((dim2 - 1, dim2)) # (n2-1)-by-n2 adjacent smoothness matrix
+    for i in range(dim2 - 1):
+        D2[i, i] = -1
+        D2[i, i + 1] = 1
+    
+    for iters in range(maxiter):
+        for k in range(dim0):
+            u, s, v = np.linalg.svd(ten2mat(X[:, :, :, k] + T[:, :, :, k] / rho, k), full_matrices = 0)
+            for i in range(len(np.where(s > 0)[0])):
+                s[i] = max(s[i] - supergradient(s[i], alpha / rho, theta) / rho, 0)
+            Z[:, :, :, k] = mat2ten(np.matmul(np.matmul(u, np.diag(s)), v), dim, k)
+            var = ten2mat(rho * Z[:, :, :, k] - T[:, :, :, k], k)
+            if k == 0:
+                var0 = mat2ten(np.matmul(inv(beta * np.matmul(D1.T, D1) + rho * np.eye(dim1)), var), dim, k)
+            elif k == 1:
+                var0 = mat2ten(np.matmul(inv(beta * np.matmul(D2.T, D2) + rho * np.eye(dim2)), var), dim, k)
+            else:
+                var0 = Z[:, :, :, k] - T[:, :, :, k] / rho
+            X[:, :, :, k] = np.multiply(1 - binary_tensor, var0) + np.multiply(binary_tensor, sparse_tensor)
+        tensor_hat = np.mean(X, axis = 3)
+        for k in range(dim0):
+            T[:, :, :, k] = T[:, :, :, k] + rho * (X[:, :, :, k] - Z[:, :, :, k])
+            X[:, :, :, k] = tensor_hat.copy()
+
+    return tensor_hat
+```
+
+> Hope you have fun if you work with our code!
 
 - Competing Models
 
