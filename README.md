@@ -21,9 +21,10 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 - Proposed Models
 
-  - [LGTC-NN (Nuclear Norm)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-NN.ipynb)
-  - [LGTC-Geman](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Geman.ipynb)
-  - [LGTC-Laplace](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Laplace.ipynb)
+  - [GLTC-NN (Nuclear Norm)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-NN.ipynb)
+  - [GLTC-Geman (nonconvex)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Geman.ipynb)
+  - [GLTC-Laplace (nonconvex)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Laplace.ipynb)
+  - [GTC (without low-rank assumption)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GTC.ipynb)
 
 
 One notable thing is that unlike the complex equations in our models, our Python implementation (relies on `numpy`) is extremely easy to work with. Take **`GLTC-Geman`** as an example, its kernel only has few lines:
@@ -84,7 +85,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 - Competing Models
 
   - [Tmac-TT (Tensor Train)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/Tmac-TT.ipynb)
-  - [LGTC-HaLRTC](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-HaLRTC.ipynb)
+  - [HaLRTC](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/HaLRTC.ipynb)
 
 - Inpainting Examples (by **`GLTC-Geman`**)
 
