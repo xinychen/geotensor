@@ -21,11 +21,12 @@ Geometric Low-Rank Tensor Completion for Color Image Inpainting.
 
 - Proposed Models
 
-  - [LGTC (Nuclear Norm, NN)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-NN.ipynb)
-  - [LGTC (Capped-L1)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Capped-L1.ipynb)
-  - [LGTC (LSP)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-LSP.ipynb)
+  - [LGTC-NN (Nuclear Norm)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-NN.ipynb)
+  - [LGTC-Geman](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Geman.ipynb)
+  - [LGTC-Laplace](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Laplace.ipynb)
 
-One notable thing is that unlike the complex equations in our models, our Python implementation (relies on `numpy`) is extremely easy to work with. Take **`GLTC-Geman`** as an example, its kernel function only has few lines:
+
+One notable thing is that unlike the complex equations in our models, our Python implementation (relies on `numpy`) is extremely easy to work with. Take **`GLTC-Geman`** as an example, its kernel only has few lines:
 
 ```python
 def supergradient(s_hat, lambda0, theta):
@@ -82,8 +83,8 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
 - Competing Models
 
-  - [HaLRTC](xxxx)
-  - [None](xxxx)
+  - [Tmac-TT (Tensor Train)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/Tmac-TT.ipynb)
+  - [LGTC-HaLRTC](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-HaLRTC.ipynb)
 
 - Inpainting Examples (by **`GLTC-Geman`**)
 
