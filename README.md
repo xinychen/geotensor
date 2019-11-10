@@ -1,6 +1,10 @@
 # geotensor
 
-Geometric Low-Rank Tensor Completion for Color Image Inpainting.
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Python 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)
+[![repo size](https://img.shields.io/github/repo-size/xinychen/geotensor.svg)](https://github.com/xinychen/geotensor/archive/master.zip)
+[![GitHub stars](https://img.shields.io/github/stars/xinychen/geotensor.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/geotensor)
+
 
 ## Motivation
 
@@ -145,6 +149,25 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
 ## Our Publication
 
-**Geometric low-rank tensor completion for color image inpainting**.
+**Geometric low-rank tensor completion for color image inpainting**. [coming soon!]
 
 > Please consider citing our paper if it helps your research.
+
+Collaborators
+--------------
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/xinychen"><img src="https://github.com/xinychen.png?size=80" width="80px;" alt="Xinyu Chen"/><br /><sub><b>Xinyu Chen</b></sub></a><br /><a href="https://github.com/xinychen/geotensor/commits?author=xinychen" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Vadermit"><img src="https://github.com/Vadermit.png?size=80" width="80px;" alt="Jinming Yang"/><br /><sub><b>Jinming Yang</b></sub></a><br /><a href="https://github.com/xinychen/geotensor/commits?author=Vadermit" title="Code">💻</a></td>
+  </tr>
+</table>
+
+See the list of [contributors](https://github.com/xinychen/geotensor/graphs/contributors) who participated in this project.
+
+
+License
+--------------
+
+This work is released under the MIT license.
+
