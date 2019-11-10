@@ -145,6 +145,6 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
 ## Our Publication
 
-**Geometric low-rank tensor completion for color image inpainting**.
+**Geometric low-rank tensor completion for color image inpainting**. [coming soon!]
 
 > Please consider citing our paper if it helps your research.
