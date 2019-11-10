@@ -1,6 +1,10 @@
 # geotensor
 
-Geometric Low-Rank Tensor Completion for Color Image Inpainting.
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+![Python 3.7](https://img.shields.io/badge/Python-3.7-blue.svg)
+[![repo size](https://img.shields.io/github/repo-size/xinychen/geotensor.svg)](https://github.com/xinychen/geotensor/archive/master.zip)
+[![GitHub stars](https://img.shields.io/github/stars/xinychen/geotensor.svg?logo=github&label=Stars&logoColor=white)](https://github.com/xinychen/geotensor)
+
 
 ## Motivation
 
