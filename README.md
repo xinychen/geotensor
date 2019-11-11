@@ -120,6 +120,13 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |  3 | Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks | 2017 | [NeurIPS](https://arxiv.org/abs/1704.06803)| [Python](https://github.com/fmonti/mgcnn) |
 |  4 | Spatio-Temporal Signal Recovery Based on Low Rank and Differential Smoothness | 2018 | [IEEE](https://doi.org/10.1109/TSP.2018.2875886) | - |
 
+- **Tensor Train Decomposition**
+
+| No | Title | Year | PDF | Code |
+|:--|:------|:----:|:---:|-----:|
+| 1 | Math Lecture 671: Tensor Train decomposition methods | 2016 | [slide](http://www-personal.umich.edu/~coronae/Talk_UM_TT_lecture1.pdf) | - |
+| 2 | Introduction to the Tensor Train Decomposition and Its Applications in Machine Learning | 2016 | [slide](https://bayesgroup.github.io/team/arodomanov/tt_hse16_slides.pdf) | - |
+
 - **Matrix/Tensor Completion + Nonconvex Regularization**
 
 | No | Title | Year | PDF | Code |
