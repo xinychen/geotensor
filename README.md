@@ -116,8 +116,12 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |:--|:------|:----:|:---:|-----:|
 |  1 | Tensor Completion for Estimating Missing Values in Visual Data | 2013 | [TPAMI](https://doi.org/10.1109/TPAMI.2012.39) | - |
 |  2 | Efficient tensor completion for color image and video recovery: Low-rank tensor train | 2016 | [arxiv](https://arxiv.org/pdf/1606.01500.pdf) | - |
-|  3 | Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks | 2017 | [NeurIPS](https://arxiv.org/abs/1704.06803)| [Python](https://github.com/fmonti/mgcnn) |
-|  4 | Spatio-Temporal Signal Recovery Based on Low Rank and Differential Smoothness | 2018 | [IEEE](https://doi.org/10.1109/TSP.2018.2875886) | - |
+|  3 | Tensor Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Tensors via Convex Optimization | 2016 | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lu_Tensor_Robust_Principal_CVPR_2016_paper.pdf) | [Matlab](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA) |
+|  4 | Geometric Matrix Completion with Recurrent Multi-Graph Neural Networks | 2017 | [NeurIPS](https://arxiv.org/abs/1704.06803)| [Python](https://github.com/fmonti/mgcnn) |
+|  5 | Efficient Low Rank Tensor Ring Completion | 2017 | [ICCV](http://openaccess.thecvf.com/content_ICCV_2017/papers/Wang_Efficient_Low_Rank_ICCV_2017_paper.pdf) | [Matlab](https://github.com/wangwenqi1990/TensorRingCompletion) |
+|  6 | Spatio-Temporal Signal Recovery Based on Low Rank and Differential Smoothness | 2018 | [IEEE](https://doi.org/10.1109/TSP.2018.2875886) | - |
+|  7 | Exact Low Tubal Rank Tensor Recovery from Gaussian Measurements | 2018 | [IJCAI](https://canyilu.github.io/publications/2018-IJCAI-Atomic.pdf) | [Matlab](https://github.com/canyilu/tensor-completion-tensor-recovery) |
+|  8 | Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm | 2018 | [TPAMI](https://arxiv.org/abs/1804.03728) | [Matlab](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA) |
 
 - **Tensor Train Decomposition**
 
