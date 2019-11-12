@@ -27,7 +27,6 @@
 
   - [GLTC-NN (Nuclear Norm)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-NN.ipynb)
   - [GLTC-Geman (nonconvex)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Geman.ipynb)
-  - [GLTC-Laplace (nonconvex)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GLTC-Laplace.ipynb)
   - [GTC (without low-rank assumption)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/GTC.ipynb)
 
 
