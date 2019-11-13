@@ -90,6 +90,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
   - [Tmac-TT (Tensor Train)](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/Tmac-TT.ipynb)
   - [HaLRTC](https://nbviewer.jupyter.org/github/xinychen/geotensor/blob/master/HaLRTC.ipynb)
+  - [Image Spatial Filtering](https://github.com/xinychen/geotensor/blob/master/Image_recovery_filtering.ipynb)
 
 - Inpainting Examples (by **`GLTC-Geman`**)
 
