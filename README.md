@@ -51,6 +51,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
     T = np.zeros((dim1, dim2, dim3, dim0)) # \boldsymbol{\mathcal{T}} (n1*n2*3*d)
     for k in range(dim0):
         X[:, :, :, k] = tensor_hat
+        Z[:, :, :, k] = tensor_hat
     
     D1 = np.zeros((dim1 - 1, dim1)) # (n1-1)-by-n1 adjacent smoothness matrix
     for i in range(dim1 - 1):
@@ -60,12 +61,19 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
     for i in range(dim2 - 1):
         D2[i, i] = -1
         D2[i, i + 1] = 1
-    
+        
+    w = []
+    for k in range(dim0):
+        u, s, v = np.linalg.svd(ten2mat(Z[:, :, :, k], k), full_matrices = 0)
+        w.append(np.zeros(len(s)))
+        for i in range(len(np.where(s > 0)[0])):
+            w[k][i] = supergradient(s[i], alpha, theta)
+
     for iters in range(maxiter):
         for k in range(dim0):
             u, s, v = np.linalg.svd(ten2mat(X[:, :, :, k] + T[:, :, :, k] / rho, k), full_matrices = 0)
-            for i in range(len(np.where(s > 0)[0])):
-                s[i] = max(s[i] - supergradient(s[i], alpha / rho, theta) / rho, 0)
+            for i in range(len(np.where(w[k] > 0)[0])):
+                s[i] = max(s[i] - w[k][i] / rho, 0)
             Z[:, :, :, k] = mat2ten(np.matmul(np.matmul(u, np.diag(s)), v), dim, k)
             var = ten2mat(rho * Z[:, :, :, k] - T[:, :, :, k], k)
             if k == 0:
@@ -74,7 +82,11 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
                 var0 = mat2ten(np.matmul(inv(beta * np.matmul(D2.T, D2) + rho * np.eye(dim2)), var), dim, k)
             else:
                 var0 = Z[:, :, :, k] - T[:, :, :, k] / rho
-            X[:, :, :, k] = np.multiply(1 - binary_tensor, var0) + np.multiply(binary_tensor, sparse_tensor)
+            X[:, :, :, k] = np.multiply(1 - binary_tensor, var0) + sparse_tensor
+            
+            uz, sz, vz = np.linalg.svd(ten2mat(Z[:, :, :, k], k), full_matrices = 0)
+            for i in range(len(np.where(sz > 0)[0])):
+                w[k][i] = supergradient(sz[i], alpha, theta)
         tensor_hat = np.mean(X, axis = 3)
         for k in range(dim0):
             T[:, :, :, k] = T[:, :, :, k] + rho * (X[:, :, :, k] - Z[:, :, :, k])
