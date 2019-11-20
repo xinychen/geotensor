@@ -136,6 +136,13 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |  7 | Exact Low Tubal Rank Tensor Recovery from Gaussian Measurements | 2018 | [IJCAI](https://canyilu.github.io/publications/2018-IJCAI-Atomic.pdf) | [Matlab](https://github.com/canyilu/tensor-completion-tensor-recovery) |
 |  8 | Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm | 2018 | [TPAMI](https://arxiv.org/abs/1804.03728) | [Matlab](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA) |
 
+- **Fast Singular Value Thresholding (SVT)**
+
+| No | Title | Year | PDF | Code |
+|:--|:------|:----:|:---:|-----:|
+| 1 | Accelerated Proximal Gradient Methods for Nonconvex Programming | 2015 | [NIPS](http://openaccess.thecvf.com/content_cvpr_2015/papers/Oh_Fast_Randomized_Singular_2015_CVPR_paper.pdf) | - |
+| 2 | Fast Randomized Singular Value Thresholding for Low-rank Optimization | 2018 | [TPAMI](https://arxiv.org/pdf/1509.00296v2.pdf) | - |
+
 - **Tensor Train Decomposition**
 
 | No | Title | Year | PDF | Code |
