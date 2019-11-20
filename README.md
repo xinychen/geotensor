@@ -126,7 +126,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 - **General Matrix/Tensor Completion**
 
 | No | Title | Year | PDF | Code |
-|:--|:------|:----:|:---:|-----:|
+|:---|:------|:----:|:---:|-----:|
 |  1 | Tensor Completion for Estimating Missing Values in Visual Data | 2013 | [TPAMI](https://doi.org/10.1109/TPAMI.2012.39) | - |
 |  2 | Efficient tensor completion for color image and video recovery: Low-rank tensor train | 2016 | [arxiv](https://arxiv.org/pdf/1606.01500.pdf) | - |
 |  3 | Tensor Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Tensors via Convex Optimization | 2016 | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Lu_Tensor_Robust_Principal_CVPR_2016_paper.pdf) | [Matlab](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA) |
@@ -139,16 +139,23 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 - **Fast Singular Value Thresholding (SVT)**
 
 | No | Title | Year | PDF | Code |
-|:--|:------|:----:|:---:|-----:|
-| 1 | Accelerated Proximal Gradient Methods for Nonconvex Programming | 2015 | [NIPS](http://openaccess.thecvf.com/content_cvpr_2015/papers/Oh_Fast_Randomized_Singular_2015_CVPR_paper.pdf) | - |
+|:---|:------|:----:|:---:|-----:|
+| 1 | Fast Randomized Singular Value Thresholding for Nuclear Norm Minimization | 2015 | [CVPR](http://openaccess.thecvf.com/content_cvpr_2015/papers/Oh_Fast_Randomized_Singular_2015_CVPR_paper.pdf) | - |
 | 2 | Fast Randomized Singular Value Thresholding for Low-rank Optimization | 2018 | [TPAMI](https://arxiv.org/pdf/1509.00296v2.pdf) | - |
+
+- **Proximal Methods**
+
+| No | Title | Year | PDF | Code |
+|:---|:------|:----:|:---:|-----:|
+|  1 | Accelerated Proximal Gradient Methods for Nonconvex Programming | 2015 | [NIPS](https://papers.nips.cc/paper/5728-accelerated-proximal-gradient-methods-for-nonconvex-programming.pdf) | [Supp](https://papers.nips.cc/paper/5728-accelerated-proximal-gradient-methods-for-nonconvex-programming-supplemental.zip) |
+
 
 - **Tensor Train Decomposition**
 
 | No | Title | Year | PDF | Code |
-|:--|:------|:----:|:---:|-----:|
-| 1 | Math Lecture 671: Tensor Train decomposition methods | 2016 | [slide](http://www-personal.umich.edu/~coronae/Talk_UM_TT_lecture1.pdf) | - |
-| 2 | Introduction to the Tensor Train Decomposition and Its Applications in Machine Learning | 2016 | [slide](https://bayesgroup.github.io/team/arodomanov/tt_hse16_slides.pdf) | - |
+|:---|:------|:----:|:---:|-----:|
+|  1 | Math Lecture 671: Tensor Train decomposition methods | 2016 | [slide](http://www-personal.umich.edu/~coronae/Talk_UM_TT_lecture1.pdf) | - |
+|  2 | Introduction to the Tensor Train Decomposition and Its Applications in Machine Learning | 2016 | [slide](https://bayesgroup.github.io/team/arodomanov/tt_hse16_slides.pdf) | - |
 
 - **Matrix/Tensor Completion + Nonconvex Regularization**
 
