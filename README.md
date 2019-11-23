@@ -150,6 +150,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 | No | Title | Year | PDF | Code |
 |:---|:------|:----:|:---:|-----:|
 |  1 | Accelerated Proximal Gradient Methods for Nonconvex Programming | 2015 | [NIPS](https://papers.nips.cc/paper/5728-accelerated-proximal-gradient-methods-for-nonconvex-programming.pdf) | [Supp](https://papers.nips.cc/paper/5728-accelerated-proximal-gradient-methods-for-nonconvex-programming-supplemental.zip) |
+|  2 | Incorporating Nesterov Momentum into Adam | 2016 | [ICLR](https://openreview.net/pdf?id=OM0jvwB8jIp57ZJjtNEZ) | - |
 
 
 - **Tensor Train Decomposition**
