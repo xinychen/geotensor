@@ -141,9 +141,10 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 | No | Title | Year | PDF | Code |
 |:---|:------|:----:|:---:|-----:|
 | 1 | Fast Randomized Singular Value Thresholding for Nuclear Norm Minimization | 2015 | [CVPR](http://openaccess.thecvf.com/content_cvpr_2015/papers/Oh_Fast_Randomized_Singular_2015_CVPR_paper.pdf) | - |
-| 2 | Fast Randomized Singular Value Thresholding for Low-rank Optimization | 2018 | [TPAMI](https://arxiv.org/pdf/1509.00296v2.pdf) | - |
-| 3 | Fast Parallel Randomized QR with Column Pivoting Algorithms for Reliable Low-rank Matrix Approximations | 2018 | [arxiv](https://arxiv.org/pdf/1804.05138.pdf) | - |
-| 4 | Low-Rank Matrix Approximations with Flip-Flop Spectrum-Revealing QR Factorization | 2018 | [arxiv](https://arxiv.org/pdf/1803.01982.pdf) | - |
+| 2 | A Fast Implementation of Singular Value Thresholding Algorithm using Recycling Rank Revealing Randomized Singular Value Decomposition | 2017 | [arxiv](https://arxiv.org/pdf/1704.05528.pdf) | - |
+| 3 | Fast Randomized Singular Value Thresholding for Low-rank Optimization | 2018 | [TPAMI](https://arxiv.org/pdf/1509.00296v2.pdf) | - |
+| 4 | Fast Parallel Randomized QR with Column Pivoting Algorithms for Reliable Low-rank Matrix Approximations | 2018 | [arxiv](https://arxiv.org/pdf/1804.05138.pdf) | - |
+| 5 | Low-Rank Matrix Approximations with Flip-Flop Spectrum-Revealing QR Factorization | 2018 | [arxiv](https://arxiv.org/pdf/1803.01982.pdf) | - |
 
 - **Proximal Methods**
 
