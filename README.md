@@ -153,6 +153,13 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |  1 | Accelerated Proximal Gradient Methods for Nonconvex Programming | 2015 | [NIPS](https://papers.nips.cc/paper/5728-accelerated-proximal-gradient-methods-for-nonconvex-programming.pdf) | [Supp](https://papers.nips.cc/paper/5728-accelerated-proximal-gradient-methods-for-nonconvex-programming-supplemental.zip) |
 |  2 | Incorporating Nesterov Momentum into Adam | 2016 | [ICLR](https://openreview.net/pdf?id=OM0jvwB8jIp57ZJjtNEZ) | - |
 
+- **Fast Alternating Direction Method of Multipliers**
+
+| No | Title | Year | PDF | Code |
+|:---|:------|:----:|:---:|-----:|
+|  1 | Differentiable Linearized ADMM | 2019 | [ICML](http://proceedings.mlr.press/v97/xie19c/xie19c.pdf) | - |
+|  2 | Faster Stochastic Alternating Direction Method of Multipliers for Nonconvex Optimization | 2019 | [ICML](http://proceedings.mlr.press/v97/huang19a/huang19a.pdf) | - |
+
 
 - **Tensor Train Decomposition**
 
