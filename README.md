@@ -172,14 +172,16 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
 | No | Title | Year | PDF | Code |
 |:--|:------|:----:|:---:|-----:|
-| 1 | Generalized  noncon-vex nonsmooth low-rank minimization | 2014 | [CVPR](https://doi.org/10.1109/CVPR.2014.526) | [Matlab](https://github.com/canyilu/IRNN) |
-| 2 | Generalized Singular Value Thresholding | 2015 | [AAAI](https://arxiv.org/abs/1412.2231) | - |
-| 3 | Scalable Tensor Completion with Nonconvex Regularization | 2018 | [arxiv](http://arxiv.org/pdf/1807.08725v1.pdf) | - |
-| 4 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [TPAMI](https://ieeexplore.ieee.org/document/8416722/) | - |
-| 5 | Nonconvex Robust Low-rank Matrix Recovery | 2018 | [arxiv](https://arxiv.org/pdf/1809.09237.pdf) | [Matlab](https://github.com/lixiao0982/Nonconvex-Robust-Low-rank-Matrix-Recovery) |
-| 6 | Matrix Completion via Nonconvex Regularization: Convergence of the Proximal Gradient Algorithm | 2019 | [arxiv](http://arxiv.org/pdf/1903.00702v1.pdf) | [Matlab](https://github.com/FWen/nmc) |
-| 7 | Efficient Nonconvex Regularized Tensor Completion with Structure-aware Proximal Iterations | 2019 | [ICML](http://proceedings.mlr.press/v97/yao19a/yao19a.pdf) | [Matlab](https://github.com/quanmingyao/FasTer) |
-| 8 | Guaranteed Matrix Completion under Multiple Linear Transformations | 2019 | [CVPR](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Guaranteed_Matrix_Completion_Under_Multiple_Linear_Transformations_CVPR_2019_paper.pdf) | - |
+| 1 | Fast and Accurate Matrix Completion via Truncated Nuclear Norm Regularization | 2013 | [TPAMI](https://ieeexplore.ieee.org/document/6389682/) | - |
+| 2 | Generalized  noncon-vex nonsmooth low-rank minimization | 2014 | [CVPR](https://doi.org/10.1109/CVPR.2014.526) | [Matlab](https://github.com/canyilu/IRNN) |
+| 3 | Generalized Singular Value Thresholding | 2015 | [AAAI](https://arxiv.org/abs/1412.2231) | - |
+| 4 | Partial Sum Minimization of Singular Values in Robust PCA: Algorithm and Applications | [TPAMI](https://arxiv.org/pdf/1503.01444.pdf) | - |
+| 5 | Scalable Tensor Completion with Nonconvex Regularization | 2018 | [arxiv](http://arxiv.org/pdf/1807.08725v1.pdf) | - |
+| 6 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [TPAMI](https://ieeexplore.ieee.org/document/8416722/) | - |
+| 7 | Nonconvex Robust Low-rank Matrix Recovery | 2018 | [arxiv](https://arxiv.org/pdf/1809.09237.pdf) | [Matlab](https://github.com/lixiao0982/Nonconvex-Robust-Low-rank-Matrix-Recovery) |
+| 8 | Matrix Completion via Nonconvex Regularization: Convergence of the Proximal Gradient Algorithm | 2019 | [arxiv](http://arxiv.org/pdf/1903.00702v1.pdf) | [Matlab](https://github.com/FWen/nmc) |
+| 9 | Efficient Nonconvex Regularized Tensor Completion with Structure-aware Proximal Iterations | 2019 | [ICML](http://proceedings.mlr.press/v97/yao19a/yao19a.pdf) | [Matlab](https://github.com/quanmingyao/FasTer) |
+| 10 | Guaranteed Matrix Completion under Multiple Linear Transformations | 2019 | [CVPR](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Guaranteed_Matrix_Completion_Under_Multiple_Linear_Transformations_CVPR_2019_paper.pdf) | - |
 
 - **Rank Approximation + Nonconvex Regularization**
 
