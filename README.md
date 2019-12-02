@@ -95,7 +95,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
     return tensor_hat
 ```
 
-> Hope you have fun if you work with our code!
+> Have fun if you work with our code!
 
 - Competing Models
 
@@ -172,14 +172,16 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 
 | No | Title | Year | PDF | Code |
 |:--|:------|:----:|:---:|-----:|
-| 1 | Generalized  noncon-vex nonsmooth low-rank minimization | 2014 | [CVPR](https://doi.org/10.1109/CVPR.2014.526) | [Matlab](https://github.com/canyilu/IRNN) |
-| 2 | Generalized Singular Value Thresholding | 2015 | [AAAI](https://arxiv.org/abs/1412.2231) | - |
-| 3 | Scalable Tensor Completion with Nonconvex Regularization | 2018 | [arxiv](http://arxiv.org/pdf/1807.08725v1.pdf) | - |
-| 4 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [TPAMI](https://ieeexplore.ieee.org/document/8416722/) | - |
-| 5 | Nonconvex Robust Low-rank Matrix Recovery | 2018 | [arxiv](https://arxiv.org/pdf/1809.09237.pdf) | [Matlab](https://github.com/lixiao0982/Nonconvex-Robust-Low-rank-Matrix-Recovery) |
-| 6 | Matrix Completion via Nonconvex Regularization: Convergence of the Proximal Gradient Algorithm | 2019 | [arxiv](http://arxiv.org/pdf/1903.00702v1.pdf) | [Matlab](https://github.com/FWen/nmc) |
-| 7 | Efficient Nonconvex Regularized Tensor Completion with Structure-aware Proximal Iterations | 2019 | [ICML](http://proceedings.mlr.press/v97/yao19a/yao19a.pdf) | [Matlab](https://github.com/quanmingyao/FasTer) |
-| 8 | Guaranteed Matrix Completion under Multiple Linear Transformations | 2019 | [CVPR](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Guaranteed_Matrix_Completion_Under_Multiple_Linear_Transformations_CVPR_2019_paper.pdf) | - |
+| 1 | Fast and Accurate Matrix Completion via Truncated Nuclear Norm Regularization | 2013 | [TPAMI](https://ieeexplore.ieee.org/document/6389682/) | - |
+| 2 | Generalized  noncon-vex nonsmooth low-rank minimization | 2014 | [CVPR](https://doi.org/10.1109/CVPR.2014.526) | [Matlab](https://github.com/canyilu/IRNN) |
+| 3 | Generalized Singular Value Thresholding | 2015 | [AAAI](https://arxiv.org/abs/1412.2231) | - |
+| 4 | Partial Sum Minimization of Singular Values in Robust PCA: Algorithm and Applications | 2016 | [TPAMI](https://arxiv.org/pdf/1503.01444.pdf) | - |
+| 5 | Scalable Tensor Completion with Nonconvex Regularization | 2018 | [arxiv](http://arxiv.org/pdf/1807.08725v1.pdf) | - |
+| 6 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [TPAMI](https://ieeexplore.ieee.org/document/8416722/) | - |
+| 7 | Nonconvex Robust Low-rank Matrix Recovery | 2018 | [arxiv](https://arxiv.org/pdf/1809.09237.pdf) | [Matlab](https://github.com/lixiao0982/Nonconvex-Robust-Low-rank-Matrix-Recovery) |
+| 8 | Matrix Completion via Nonconvex Regularization: Convergence of the Proximal Gradient Algorithm | 2019 | [arxiv](http://arxiv.org/pdf/1903.00702v1.pdf) | [Matlab](https://github.com/FWen/nmc) |
+| 9 | Efficient Nonconvex Regularized Tensor Completion with Structure-aware Proximal Iterations | 2019 | [ICML](http://proceedings.mlr.press/v97/yao19a/yao19a.pdf) | [Matlab](https://github.com/quanmingyao/FasTer) |
+| 10 | Guaranteed Matrix Completion under Multiple Linear Transformations | 2019 | [CVPR](http://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Guaranteed_Matrix_Completion_Under_Multiple_Linear_Transformations_CVPR_2019_paper.pdf) | - |
 
 - **Rank Approximation + Nonconvex Regularization**
 
@@ -194,6 +196,7 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |  7 | Inexact Proximal Gradient Methods for Non-Convex and Non-Smooth Optimization | 2018 | [AAAI](http://www.pitt.edu/~zhh39/others/aaaigu18a.pdf) | - |
 |  8 | Non-Convex Relaxations for Rank Regularization | 2019 | [slide](https://icerm.brown.edu/materials/Slides/sp-s19-w3/Non-Convex_Relaxations_for_Rank_Regularization_]_Carl_Olsson,_Chalmers_University_of_Technology_and_Lund_University.pdf) | - |
 |  9 | Geometry and Regularization in Nonconvex Low-Rank Estimation | 2019 | [slide](http://users.ece.cmu.edu/~yuejiec/papers/NonconvexLowrank.pdf) | - |
+|  10 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [IEEE TPAMI](https://arxiv.org/pdf/1708.00146.pdf) | - |
 
 
 Collaborators
@@ -203,6 +206,7 @@ Collaborators
   <tr>
     <td align="center"><a href="https://github.com/xinychen"><img src="https://github.com/xinychen.png?size=80" width="80px;" alt="Xinyu Chen"/><br /><sub><b>Xinyu Chen</b></sub></a><br /><a href="https://github.com/xinychen/geotensor/commits?author=xinychen" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Vadermit"><img src="https://github.com/Vadermit.png?size=80" width="80px;" alt="Jinming Yang"/><br /><sub><b>Jinming Yang</b></sub></a><br /><a href="https://github.com/xinychen/geotensor/commits?author=Vadermit" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/lijunsun"><img src="https://github.com/lijunsun.png?size=80" width="80px;" alt="Lijun Sun"/><br /><sub><b>Lijun Sun</b></sub></a><br /><a href="https://github.com/xinychen/geotensor/commits?author=lijunsun" title="Code">💻</a></td>
   </tr>
 </table>
 
