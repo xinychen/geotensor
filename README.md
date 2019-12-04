@@ -136,15 +136,16 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |  7 | Exact Low Tubal Rank Tensor Recovery from Gaussian Measurements | 2018 | [IJCAI](https://canyilu.github.io/publications/2018-IJCAI-Atomic.pdf) | [Matlab](https://github.com/canyilu/tensor-completion-tensor-recovery) |
 |  8 | Tensor Robust Principal Component Analysis with A New Tensor Nuclear Norm | 2018 | [TPAMI](https://arxiv.org/abs/1804.03728) | [Matlab](https://github.com/canyilu/Tensor-Robust-Principal-Component-Analysis-TRPCA) |
 
-- **Fast Singular Value Thresholding (SVT)**
+- **Singular Value Thresholding (SVT)**
 
 | No | Title | Year | PDF | Code |
 |:---|:------|:----:|:---:|-----:|
-| 1 | Fast Randomized Singular Value Thresholding for Nuclear Norm Minimization | 2015 | [CVPR](http://openaccess.thecvf.com/content_cvpr_2015/papers/Oh_Fast_Randomized_Singular_2015_CVPR_paper.pdf) | - |
-| 2 | A Fast Implementation of Singular Value Thresholding Algorithm using Recycling Rank Revealing Randomized Singular Value Decomposition | 2017 | [arxiv](https://arxiv.org/pdf/1704.05528.pdf) | - |
-| 3 | Fast Randomized Singular Value Thresholding for Low-rank Optimization | 2018 | [TPAMI](https://arxiv.org/pdf/1509.00296v2.pdf) | - |
-| 4 | Fast Parallel Randomized QR with Column Pivoting Algorithms for Reliable Low-rank Matrix Approximations | 2018 | [arxiv](https://arxiv.org/pdf/1804.05138.pdf) | - |
-| 5 | Low-Rank Matrix Approximations with Flip-Flop Spectrum-Revealing QR Factorization | 2018 | [arxiv](https://arxiv.org/pdf/1803.01982.pdf) | - |
+| 1 | A General Iterative Shrinkage and Thresholding Algorithm for Non-convex Regularized Optimization Problems | 2013 | [ICML](http://proceedings.mlr.press/v28/gong13a.pdf) | - |
+| 2 | Fast Randomized Singular Value Thresholding for Nuclear Norm Minimization | 2015 | [CVPR](http://openaccess.thecvf.com/content_cvpr_2015/papers/Oh_Fast_Randomized_Singular_2015_CVPR_paper.pdf) | - |
+| 3 | A Fast Implementation of Singular Value Thresholding Algorithm using Recycling Rank Revealing Randomized Singular Value Decomposition | 2017 | [arxiv](https://arxiv.org/pdf/1704.05528.pdf) | - |
+| 4 | Fast Randomized Singular Value Thresholding for Low-rank Optimization | 2018 | [TPAMI](https://arxiv.org/pdf/1509.00296v2.pdf) | - |
+| 5 | Fast Parallel Randomized QR with Column Pivoting Algorithms for Reliable Low-rank Matrix Approximations | 2018 | [arxiv](https://arxiv.org/pdf/1804.05138.pdf) | - |
+| 6 | Low-Rank Matrix Approximations with Flip-Flop Spectrum-Revealing QR Factorization | 2018 | [arxiv](https://arxiv.org/pdf/1803.01982.pdf) | - |
 
 - **Proximal Methods**
 
