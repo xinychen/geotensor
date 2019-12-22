@@ -200,6 +200,13 @@ def GLTC_Geman(dense_tensor, sparse_tensor, alpha, beta, rho, theta, maxiter):
 |  9 | Geometry and Regularization in Nonconvex Low-Rank Estimation | 2019 | [slide](http://users.ece.cmu.edu/~yuejiec/papers/NonconvexLowrank.pdf) | - |
 |  10 | Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers | 2018 | [IEEE TPAMI](https://arxiv.org/pdf/1708.00146.pdf) | - |
 
+- **Weighted Nuclear Norm Minimization**
+
+| No | Title | Year | PDF | Code |
+|:--|:------|:----:|:---:|-----:|
+| 1 | Weighted Nuclear Norm Minimization with Application to Image Denoising | 2014 | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Gu_Weighted_Nuclear_Norm_2014_CVPR_paper.pdf) | [Matlab](http://www4.comp.polyu.edu.hk/~cslzhang/code/WNNM_code.zip) |
+| 2 | Multi-Scale Weighted Nuclear Norm Image Restoration | 2018 | [CVPR](https://www.zpascal.net/cvpr2018/Yair_Multi-Scale_Weighted_Nuclear_CVPR_2018_paper.pdf) | [Matlab](https://github.com/noamyairTC/MSWNNM) |
+
 
 Collaborators
 --------------
